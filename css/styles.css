@@ -300,7 +300,7 @@ body {
 }
 
 .project-img {
-
+    display: block;
 }
 
 .project-title {
@@ -317,4 +317,4 @@ body {
     letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
-/* ######### MAIN PORTFOLIO STOP ######### */
+/* ######### MAIN PORTFOLIO END ######### */
