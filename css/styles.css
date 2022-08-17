@@ -8,7 +8,7 @@
   
  --primary-background-color: #FFFFFF;
  --second-background-color: #2F303A;
- --our-team-background-color: #F5F4FA;
+ --team-background-color: #F5F4FA;
  --border-color: #EEEEEE;
 
  --hero-button-background-color: #2196F3;
@@ -21,6 +21,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     color: var(--default-text-color);
     background-color: var(--primary-background-color);
 }
@@ -31,6 +33,10 @@ body {
 
 .list {
     list-style: none;
+}
+
+.images {
+    display: block;
 }
 
 .visually-hidden {
@@ -58,7 +64,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     color: var(--active-text-color);
 }
 
@@ -72,7 +77,6 @@ body {
 
 .menu-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: inherit;
@@ -92,7 +96,6 @@ body {
 
 .contacts-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--second-text-color);
@@ -145,18 +148,12 @@ body {
 }
 
 .feature-title {
-    font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .feature-description {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 
@@ -166,11 +163,9 @@ body {
 }
 
 .services-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.7;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .services-list {
@@ -178,48 +173,43 @@ body {
 }
 
 .services-img {
-    display: block;
+
 }
 
 /* Наша команда */
-.our-team {
-    background-color: var(--our-team-background-color);
+.team {
+    background-color: var(--team-background-color);
 }
 
-.our-team-title {
-    font-weight: 700;
+.team-title {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
-.our-team-list {
+.team-list {
 
 }
 
-.card {
+.team-card {
     background-color: var(--primary-background-color);
 }
 
-.card-img {
-    display: block;
+.team-card-img {
+    border-radius: 0px;
 }
 
-.card-name {
+.team-card-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
-.card-work-position {
-    font-weight: 400;
+.team-card-work-position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 /* ######### STUDIO MAIN END ######### */
@@ -238,24 +228,16 @@ body {
 }
 
 .address-map-link {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--third-text-color);
 }
-.address-map-link:hover, 
-.address-map-link:focus,
 .address-link:hover,
 .address-link:focus {
     color: var(--active-text-color);
 }
 
 .address-link {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
     color: var(--address-link-color);
 }
 /* ######### FOOTER END ######### */
@@ -279,7 +261,8 @@ body {
 }
 
 .filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:focus,
+.current-btn {
     cursor: pointer;
     color: var(--third-text-color);
     background: var(--filter-button-background-active-color);
@@ -300,21 +283,18 @@ body {
 }
 
 .project-img {
-    display: block;
+
 }
 
 .project-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .project-type {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 /* ######### MAIN PORTFOLIO END ######### */
